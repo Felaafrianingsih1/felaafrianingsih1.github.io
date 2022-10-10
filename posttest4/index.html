@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tour & Travel Xfot</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style src="app.js" defer ></style>
+
+</head>
+<body>
+	<!-- <script></script>
+	<div class="toggle-container"></div>
+	<input type="checkbox" id="toggle" nama="toggle">
+	<label for="toggle"></label> -->
+
+	<div class="navbar">
+		<div class="logo">
+			<h1> Tour & Travel</h1>
+		</div>
+		<div class="menu">
+			<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Places</a></li>
+				<li><a href="#">Discounts</a></li>				
+				<li><a href="#">Booking</a></li>
+				<li><a href="#">About me</a></li>
+				<!-- <input type="checkbox" id="checkbox" class="checkbox">			 -->
+				<img src="image/moon.png" id="icon">
+			</ul>
+		</nav>
+		</div>
+		<div class="signup">
+			<a href="#">Sign Up</a>
+		</div>
+	</div>
+	<div class="body">
+		<div class="heading">
+			<h1> Xfot </h1>
+			<br>
+			<p> Xfot Tour & Travel memberikan kemudahan dalam pemesanan tiket pesawat, antar jemput bandara, paket tour atau wisata lokal dan mancanengara. Kami menawarkan pelayanan yang cepat dan Kami memberikan penawaran terbaik. Kami memiliki team yang cekatan dan ramah dalam memberikan layanan. Pelanggan yang awam pun tidak perlu khawatir karena Kami akan memberikan penjelasan  </p>
+			<br>Perjalanan lebih mudah
+			<p>Anda senang kami pun senang</p>
+			<br>
+			<a href="#">Learn More</a>
+		</div>
+		<div class="tours">
+			<div class="places">
+				<h2>korea selatan</h2>
+				<img src="koreaselatan.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+				<br>
+				<br>
+				<a href="#">Book Now 10% OFF</a>
+			</div>
+			<div class="places">
+				<h2>Thailand</h2>
+				<img src="thailand.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+				<br>
+				<br>
+				<a href="#">Book Now 15% OFF</a>
+			</div>
+			<div class="places">
+				<h2>China</h2>
+				<img src="china.jpg" style="width: 300px; height: 250px; border-radius: 12px;">
+				<br>
+				<br>
+				<a href="#">Book Now 20% OFF</a>			
+			</div>
+		</div>
+	</div>
+	<div class="foot">		
+			<h3>Halo i'm Fela Afria Ningsih </h3>
+			<p>i was born in kaliorang on 21 april 2003</p>
+			<p>My address is on Jln.pramuka 6 Blok A</p>
+			<p>My hobby is watching and reading</p>		
+	</div>
+	<div class="footer">
+		<a href="#">Copyright 2022</a>
+		<a href="#">X-fot travel</a>
+		<a href="#">Designed by fela</a>
+	</div>
+	<script>
+		var icon = document.getElementById("icon");
+
+		icon.onclick = function(){
+			document.body.classList.toggle("dark-theme");
+			if(document.body.classList.contains("dark-theme")){
+				icon.scr ="image/sun.png";				
+			}else{
+				icon.src ="image/moon.png"
+
+			}
+		}
+	</script>
+</body>
+</html>
