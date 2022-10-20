@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+  background: #fdeaea;;
+
+}
+.navbar{
+	width: 100%;
+	height: 80px;
+	/* background-color: #fee; */
+	background: #fdeaea;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/* color: #000; */
+}
+
+header {    
+    position: absolute;
+    /* background-color: #fcfcfc; */
+    /* color: #1a1818; */
+    /* color: white; */
+    top: 0;
+    left: 0;
+    padding: 0px 100px;
+    width: 100%;
+    box-sizing: border-box;   
+ 
+}
+
+header .logo {
+    /* color: black; */
+    color: white;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+
+header nav {
+    float: right;
+  
+}
+
+header nav p{
+    color: black;
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+}   
+
+header nav ul li a {
+    /* background-color: #1a1818; */
+    /* color: #fcfcfc; */
+    color: black;
+    /* color: black; */
+    height: 60px;
+    line-height: 60px;
+    padding: 0 50px;
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    border-bottom: 1px solid red;
+    transition: 0.2s;
+}
+
+.wrapper{
+	width: 350px;
+
+	background: #1a1111;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+	box-shadow: 0px 0px 100px 4px #d6d6d6;
+    color :beige;
+}
+
+
+
+/* .footer{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: black;
+    color: white;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
