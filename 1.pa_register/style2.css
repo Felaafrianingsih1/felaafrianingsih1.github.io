@@ -14,7 +14,7 @@ body{
 .signin_body {
     padding: 60px;
     z-index: 90;
-    position: absolute;
+    position: relative;
     max-width: 450px;
     height: 400px;
     margin-left: 50%;
